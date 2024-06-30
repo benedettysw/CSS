@@ -1,0 +1,32 @@
+/*cuando el contenido de un contenedor 
+es más grande que el área disponible*/
+
+/*si el contenido en mayor aparecerán 
+barras de desplazamiento horizontal y/o vertical */
+
+.envasar{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    margin: 15px auto;
+    overflow: hidden;
+
+}
+
+
+.envase{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    overflow: auto;
+    
+}
+
+.txt{
+    margin-top: 45px;
+    width: 400px;
+    height: 200px;
+
+}
+

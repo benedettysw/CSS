@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.borde , .outline{
+    width: 100px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.borde{
+    
+    border: 2px solid blue;
+}
+
+.outline{
+    
+    outline: 4px solid rgb(245, 139, 0);
+    border: 2px inset red;
+
+    /* SE SEPARA 10PX DE LA CAJA */
+
+    outline-offset: 10px;
+}

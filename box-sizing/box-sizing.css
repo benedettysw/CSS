@@ -1,0 +1,15 @@
+/* MANTENER EL TAMAÑO DEL CONTAINER AL TAMAÑO ESTABLECIDO */
+
+
+
+.envase{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid blueviolet;
+
+}
+
+

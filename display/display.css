@@ -1,0 +1,33 @@
+/*
+ DISPLAY OCULTA LA ETIQUETA 
+ DISPLAY BLOCK CONVIERTE AL ELEMENTO EN BLOCK
+ DISPLAY INLINE CONVIERTE AL EMELMENTO EN LINEA
+ DISPLAY INLINE-BLOCK SIGUE SIENDO DE LINEA PERO COMO DE BLOCK
+
+*/
+
+
+
+
+
+body{
+    background-color: black;
+}
+
+p{
+    background-color: lightcoral;
+    
+}
+
+a{
+    background-color: white;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+  
+
+    
+}

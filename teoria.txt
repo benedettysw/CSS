@@ -1,0 +1,15 @@
+margin
+padding
+border
+box-sizing: border-box
+overflow: auto
+
+
+etiqueta a heredad
+
+color inherit
+
+
+no heredad 
+
+color: initial;

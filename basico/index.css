@@ -1,0 +1,54 @@
+/* Universal */
+
+*{
+    background: black;
+    color: white;
+}
+
+
+/* ID */
+
+#txt{
+    background: red;
+}
+
+
+/* Atributo  */
+[href ]{
+    color: red;
+}
+
+
+
+
+[href="www.FACE"]{
+    color: aqua;
+}
+
+
+.txt , .txt1{
+    background: rebeccapurple;
+}
+
+
+/* COLOR A UN ELEMTO QUE TIENE LA MISMA CLASE PERO ESTA DENTRO O FUERA DE UN DIV */
+
+div .txth1{
+
+    color: violet;
+}
+
+.Nohererncia{
+    color: red;
+
+}
+
+
+span{
+    color: inherit;
+}
+
+
+.tittle{
+    color: brown;
+}

@@ -1,0 +1,27 @@
+/* MARING POSICIONES {MOVER EL ELEMENTO} 
+
+LOS ELEMENTO DE LINEA  SOMO SE MUEVER HORIZONAL
+
+LOS DE BLOCK A TODOS LADOS 
+*/
+
+
+.linea{
+    margin-left: 100px;
+    background-color: black;
+}
+
+
+.text{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    /* margin: 100px auto 0; */
+
+    margin: 100px;  /* 100 PX A TODOS LOS LADOS */
+    
+    
+
+}

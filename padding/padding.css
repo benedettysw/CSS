@@ -1,0 +1,26 @@
+/* EXPANDIR CONTENEDOR {MAS GRANDE EL BLOCKE} */
+
+
+
+.container{
+    /* MOSTRA CONTENEDOR SI ALTO Y ANCHO */
+
+    background-color: black;
+    padding: 100px;
+
+}
+
+
+
+.container-1{
+    /* MOSTRA EL CONTENEDOR */
+    
+    height: 300px;
+    width: 300px;
+    background-color: brown; 
+    
+    /* PADDING EXPADIR EL TAMAÑO DEL CONTAINER */
+
+    padding: 100px;
+
+}
