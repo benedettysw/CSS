@@ -1,0 +1,56 @@
+/* IMG inline-block por defecto 
+
+ CENTRAR UN IMG DENTRO DE UN DIV "SI SIRVE" PERO FUERA NO SIRVE 
+
+ PARA CENTRAR LA IMG FUERA DE UN DIV SE USA MARGIN CON UN DISPLAY BLOCK
+
+*/
+
+
+
+.container{
+    /* EJEMPLO DENTRO DEL DIV */
+    /* text-align: center; */
+    
+
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+p{
+    text-align: center;
+}
+
+.caja{
+    outline: 5px solid aquamarine;
+    width: 60px;
+    text-align: center;
+    margin: 10px auto;
+  
+}
+
+a{
+    display: block;
+    background-color: aqua;
+    text-align: center;
+    width: 80px;
+    margin: 30px auto 20px;
+
+ 
+}
+
+
+img{
+    /* EJEMPLO CON SOLO LA ETIQUETA IMG */
+    display: block;
+    margin: auto;
+    border-radius: 400px;
+
+} 

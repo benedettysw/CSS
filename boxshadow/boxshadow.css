@@ -1,0 +1,25 @@
+/* HASTA 4 PROPIEDADES Y CUADROS INFINITOS */
+
+.boxshadow{
+    background-color: lightcoral;
+    width: 150px;
+    padding: 50px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 30px;
+
+    /* color del sobreado */
+
+    /* SOMBREADO ABAJO */
+    box-shadow: -10px -5px 10px blue ;
+
+
+ 
+
+
+}
+
+body{
+    background-color: rgb(0, 237, 245);
+    box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(18, 85, 94);
+    color: white;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.caja{
+    background-color: red;
+
+}
+
+.caja-1{
+    background-color: aqua;
+}
