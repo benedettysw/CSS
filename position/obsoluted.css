@@ -1,0 +1,29 @@
+/* PIEDER SU MEDIDAD */
+
+/* EL BODY COMO REFERECIA  */
+
+/* PIEDER SU SITIO */
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.box{
+    background-color: red;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* left: 120px; */
+    margin-bottom: 5px;
+}
+
+
+.box-1{
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    /* bottom: 0; */
+}

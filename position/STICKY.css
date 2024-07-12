@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white; 
+
+}
+
+h1{
+    position: sticky;
+    top: 10px;
+    background-color: red;
+}
+
+p{
+    font-size: 60px;
+}

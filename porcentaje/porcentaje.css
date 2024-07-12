@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: rgb(0, 24, 242);
+}
+
+
+/* .container{
+    width: 400px;
+    height: 400px;
+    background-color:aqua;
+    margin: auto;
+
+} */
+.container{
+    width: auto;
+    height: 200px;
+    background-color:aqua;
+    margin: 50px 50px;
+    border-top: 30px solid aqua;
+    text-align: center;
+
+
+}
+
+.box{
+    width: 90%;
+    height: 75%;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+}
+
+.caja{
+    background-color: aquamarine;
+    width: auto;
+    margin: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+
+}
+
+h1 {
+    text-shadow: 10px 10px 50px rgba(255, 0, 0, 0.8);
+    font-size: 5rem;
+
+}
+
+

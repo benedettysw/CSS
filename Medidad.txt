@@ -1,0 +1,22 @@
+16 pixeles por defecto
+
+Del navegador
+1 rem = 16px
+
+
+
+
+Em del body
+
+body{
+    font-size : 10px
+}
+
+
+
+3 em = 30px
+
+
+
+% SE ADAPTA AL BODY 
+!IMPORTANTE USAR AUTO EN VEX DEL 100%

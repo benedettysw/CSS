@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>Document</title>
+</head>
+<body>
+
+   
+
+    <div class="container">
+
+
+        <input  type="text"id="entrada" placeholder="Ingresa algun numero" readonly>
+
+        <div class="botones">
+            <button onclick="limpiar()"> C</button>
+            <button onclick="valor('/')"> /</button>
+            <button onclick="valor('*')">*</button>
+            <button onclick="valor('-')">-</button>
+
+            <br>
+            
+            <button onclick="valor(7)">7</button>
+            <button onclick="valor(8)">8</button>
+            <button onclick="valor(9)"> 9</button>
+            <button onclick="valor('+')">+</button>
+            <br>
+            <button onclick="valor(4)">4</button>
+            <button onclick="valor(5)">5</button>
+            <button onclick="valor(6)">6</button>
+
+            <button onclick="logica()">=</button>
+            <br>
+            <button  onclick="valor(1)">1</button>
+            <button onclick="valor(2)">2</button>
+            <button onclick="valor(3)">3</button>
+            <button onclick="valor(0)">0</button>
+
+            <br>
+
+
+
+        </div>
+        
+    </div>
+
+    <script src="logica.js"></script>
+
+</body>
+</html>

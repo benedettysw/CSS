@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background: linear-gradient(to left , blue , rgb(216, 186, 109)) */
+    background-color: black
+}
+
+
+.container{
+    background-color: rgb(49, 31, 131);
+    height: 550px;
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 100px;
+}
+
+.container , #entrada{
+    text-align: center;
+
+}
+
+#entrada{
+    height: 50px;
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    
+}
+
+
+#entrada , button{
+    border: none;
+    box-shadow: 1px 1px 10px rgb(6, 253, 191);
+
+}
+
+.botones{
+    height: 80%;
+}
+
+
+
+button{
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    transform: scale(1.10);
+    background-color: red;
+}
