@@ -1,0 +1,78 @@
+//////////////////////////////////////
+
+display : flex;
+
+
+flex-direction: row;
+flex-direction: column;
+
+
+///////////////////////////
+
+flex-wrap: wrap;  Importante ponerlo en varias lineas
+
+
+///////////////////////////////
+
+EJE HORIZONTAL 
+
+justify-content: space-between;
+
+
+
+/////////////////////////
+
+EJE VERTICAL
+
+align-items: center;
+
+
+///////////////
+
+
+CAMBIAR DE POSICION A UNA CAJA DEFERENTE DE LAS OTRAS
+ESTA PROPIEDAD SE COLOCA EN LA CAJA
+
+align-self: ;
+
+
+/////////////////////////////////
+
+DARLE POSICION VERTICALMENTE  FUNCIONA CON WRAP
+
+align-content: flex-end;
+
+
+
+
+////////////////
+
+
+
+REDUCION DE CODIGO
+
+
+ /* flex-direction: column-reverse;
+    flex-wrap: wrap; */
+
+
+    /* flex-flow: row-reverse wrap; */
+
+
+////////////////////////
+
+
+Probarlo si el ancho del box hijo
+
+flex-basis: 200px;
+
+
+
+flex-grow = 0 defaul ocupar el espacion posible
+
+3 partes de cakes  sobran se divide en 3  
+
+flex-shrink = 1 defaul
+
+
+flex-basis = auto defaul

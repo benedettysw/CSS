@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+.container{
+    border: 3px solid lightcoral;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box{
+    height: 100px;
+    /* width: 100px; */
+    text-align: center;
+    flex: 1;
+    border: 3px solid lime;
+    flex-basis: 400px;
+
+}
+    

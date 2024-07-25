@@ -13,3 +13,6 @@ color inherit
 no heredad 
 
 color: initial;
+
+
+ul>li*3>a
