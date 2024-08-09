@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(10, 23, 48);
+    font-size: 1.5rem;
+
+
+}
+
+
+
+.cabezera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 30px;
+    
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.logo{
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+
+.foto{
+    width: 100%;
+}
+
+

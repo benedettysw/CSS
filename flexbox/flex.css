@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+    
+}
+main{
+    display: flex;
+}
+
+nav{
+    flex-basis: 299px;
+}
+section{ 
+    background-color: blueviolet;
+    flex-grow: 1;
+    font-size: 3vw;
+}
+
+.logo{
+    margin: 0 2vw;
+}
+
+ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+section > .box {
+    background-color: red;
+    border: 4px solid white ;
+    
+}
+
+.box{
+    flex-grow: 1;
+}
+
+.box:first-child{
+    background-color: aqua;
+}
+
+.box:nth-child(2){
+    
+}
+
+.box:last-child{
+    background-color:black;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+main{
+    background-color:salmon;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: brown;
+    padding: 10px;
+}
+
+
+@media (width <1000px){
+    header{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+
+    
+
+    }
+    ul li{
+        
+    }
+
+ 
+    
+}
+
+@media (width <600px){
+    header{
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul li{
+        display: flex;
+
+    }
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    
+}

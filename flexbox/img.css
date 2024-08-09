@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-size: 1.5rem; */
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
+    text-align: center;
+
+}
+
+header{
+    /* background-color: rgb(107, 240, 107); */
+    padding: 10px;
+    /* color: black; */
+    
+
+}
+
+.containerC{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row ;
+    
+}
+
+
+
+
+.containerC > section{
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-basis: 50%;
+
+    
+}
+
+.containerC > main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+
+}
+
+
+nav:hover{
+    background-color: maroon;
+    color: white;
+}    
+
+
+.fila{
+    display: flex;
+    /* background-color: beige; */
+    flex-wrap: wrap;
+    
+}
+
+.fila > nav{
+    padding: 20px;
+    flex-grow: 1;
+
+}
+
+
+
+footer{
+    /* background-color: rgb(107, 240, 107);
+    color: black; */
+    font-size: 1.4vw;
+
+    
+}
+
+
+@media (width < 1300px){
+
+    .containerC{
+        flex-direction: column-reverse;
+        
+    }
+
+    
+
+
+}
+
+
+
+
+
+@media (width < 600px){
+
+    .containerC{
+        flex-direction: column;
+    }
+
+    
+    .containerC > section{
+        flex-basis: 200px;
+    
+}
+.fila nav{
+    width: 100%;
+
+}
+
+}
+
+    

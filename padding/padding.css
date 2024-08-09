@@ -1,12 +1,16 @@
 /* EXPANDIR CONTENEDOR {MAS GRANDE EL BLOCKE} */
 
-
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .container{
     /* MOSTRA CONTENEDOR SI ALTO Y ANCHO */
 
     background-color: black;
     padding: 100px;
+    margin-bottom: 10px;
 
 }
 

@@ -72,7 +72,20 @@ flex-grow = 0 defaul ocupar el espacion posible
 
 3 partes de cakes  sobran se divide en 3  
 
-flex-shrink = 1 defaul
+flex-shrink = 1 defaul  //Encogete hasta donde puedas "0" no te escojas
 
+
+
+////////////////
 
 flex-basis = auto defaul
+
+
+
+si es row es width
+
+
+si es column es heigth
+
+
+

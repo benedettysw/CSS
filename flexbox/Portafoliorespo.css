@@ -1,0 +1,35 @@
+@media (width <1300px){
+
+
+    .cabezera{
+        justify-content: space-around;
+    }
+    
+}
+
+
+@media (width <700px){
+
+    .cabezera{
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+
+.logo{
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+
+.foto{
+    width: 100%;
+}
